@@ -1,2 +1,2 @@
 # sfv9000
-Helps to modify and customize the computer's system and user settings.
+Helps to edit/modify system and user settings (e.g. permissions, users, registry) and provides fun scripts to play with (e.g. folder bomb creator)
