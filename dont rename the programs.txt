@@ -1,0 +1,7 @@
+Just a friendly reminder -
+
+	Do not rename
+	"RunAsAdmin [Recommended].exe"
+	"Refresh.exe"
+
+Thank you.

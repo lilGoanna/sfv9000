@@ -1,0 +1,45 @@
+@echo off
+title BOMB
+mode con: cols=50 lines=10 
+
+:check
+if %passcode%==FALSE goto START
+
+:PASS_input
+cls
+set /p "input=PASSCODE://^> "
+if  "%input%"=="%passcode%" goto START
+echo.
+echo INCORRECT
+timeout /t 1 >nul
+goto PASS_input
+
+
+:START
+cls
+echo %folderlimit% FOLDERS LEFT TO CREATE...
+if %folderlimit%==0 goto stop
+md %foldername%%random%%random%
+set /a folderlimit-=1
+goto START
+
+:stop
+if "%endmsg%"=="FALSE" goto stop2
+
+:messagecreate
+echo title="END MESSAGE">>endmsg.vbs
+echo message="%endmsg%">>endmsg.vbs
+echo x=msgbox(message, 0, title)>>endmsg.vbs
+endmsg.vbs
+del endmsg.vbs
+goto stop2
+
+:stop2
+
+if not %selfdestruct%==FALSE (
+start cmd.exe /k "del bomb.bat & exit"
+)
+cls
+echo FINISHED
+timeout /t 1 >nul
+exit

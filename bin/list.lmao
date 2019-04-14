@@ -1,0 +1,31 @@
+	(all commands are case sensitive)
+	command     |	description
+	---------------------------
+	cmd  	    ~	command prompt mode
+	clean       ~	cleans the system (temp, prefetch, etc.)
+	clean_ear   ~	opens port on current computer [9000]
+	create_user ~	create a system user
+	exit 	    ~	terminates program
+	ear2ear     ~	start listener on port [9000]
+	ftp  	    ~	opens FTP terminal
+	firebucket  ~	turn on (windows) firewall
+	help	    ~	displays cmd list
+	incognito   ~	check or erase (chrome) incognito history
+	ip          ~	displays current computer's ip
+	phonymail   ~	send an email with a fake address
+	user_modify ~	modify a user (ie. change password)
+	refresh     ~	terminates all cmd.exe processes (shutting down putty session)
+	reload_con  ~	reloads the console
+	runadmin    ~	runs program as administrator (if not already admin)
+	takeshift   ~	replace sethc.exe with console
+	takehq      ~	own all files in System32
+	waterbucket ~	turn off (windows) firewall
+	winattack   ~	turn off (windows) defender
+	windefend   ~	turn on (windows) defender
+	website     ~	opens my website to download the program/payloads
+	white_swan  ~	Close Range Folder Bomb CREATOR
+	
+	[CONSOLE] fun commands
+	
+	boot_matrix ~	starts datasystems (visual representation of matrix on console)
+	stop_matrix ~	stops datasystems (refer to command 'boot_matrix')
